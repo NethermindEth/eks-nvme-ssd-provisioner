@@ -12,7 +12,7 @@ A Helm chart for Kubernetes
 | automountServiceAccountToken | bool | `false` |  |
 | fullnameOverride | string | `""` |  |
 | image.pullPolicy | string | `"IfNotPresent"` |  |
-| image.repository | string | `"eu.gcr.io/brunsgaard-public/eks-nvme-ssd-provisioner"` |  |
+| image.repository | string | `"nethermindeth/eks-nvme-ssd-provisioner"` |  |
 | image.tag | string | `"v1.0.0"` |  |
 | imagePullSecrets | list | `[]` |  |
 | nameOverride | string | `""` |  |

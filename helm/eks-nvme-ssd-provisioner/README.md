@@ -13,7 +13,7 @@ A Helm chart for Kubernetes
 | fullnameOverride | string | `""` |  |
 | image.pullPolicy | string | `"IfNotPresent"` |  |
 | image.repository | string | `"nethermindeth/eks-nvme-ssd-provisioner"` |  |
-| image.tag | string | `"v1.0.0"` |  |
+| image.tag | string | `"v1.0.1"` |  |
 | imagePullSecrets | list | `[]` |  |
 | nameOverride | string | `""` |  |
 | nodeSelector."aws.amazon.com/eks-local-ssd" | string | `"true"` |  |

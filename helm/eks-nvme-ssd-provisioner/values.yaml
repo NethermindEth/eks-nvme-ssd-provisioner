@@ -4,7 +4,7 @@ priorityClassName: system-node-critical
 image:
   repository: nethermindeth/eks-nvme-ssd-provisioner
   pullPolicy: IfNotPresent
-  tag: v1.0.0
+  tag: v1.0.1
 
 imagePullSecrets: []
 nameOverride: ""

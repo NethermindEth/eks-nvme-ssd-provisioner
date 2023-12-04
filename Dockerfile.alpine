@@ -9,8 +9,4 @@ RUN apk add --no-cache \
     util-linux
 
 COPY eks-nvme-ssd-provisioner.sh /usr/local/bin/
-
-RUN adduser -D nonrootuser
-USER nonrootuser
-
 ENTRYPOINT ["eks-nvme-ssd-provisioner.sh"]
